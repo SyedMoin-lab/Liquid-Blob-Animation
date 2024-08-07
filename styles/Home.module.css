@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .blob {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .circle-mask {
+    border-radius: 50%;
+  }
+  
+  .square-mask {
+    border-radius: 0;
+  }
+  
